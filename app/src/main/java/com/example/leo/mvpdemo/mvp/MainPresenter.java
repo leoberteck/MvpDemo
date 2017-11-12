@@ -36,6 +36,7 @@ public class MainPresenter implements MainActivityMVP.IMainPresenter {
             } else {
                 dao.add(empregadoSendoEditado);
             }
+            adapter.notifyDataSetChanged();
         }
     }
 
